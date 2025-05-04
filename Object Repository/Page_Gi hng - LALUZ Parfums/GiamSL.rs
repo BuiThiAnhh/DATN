@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GiamSL</name>
+   <tag></tag>
+   <elementGuidId>f84c8f53-eb0f-40f5-b7c5-16cfb64c87f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.wc-block-components-quantity-selector__button.wc-block-components-quantity-selector__button--minus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dung tích:'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>56498ffe-ed3a-4f28-8327-7d0ab9cfcc14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Reduce quantity of Roja Parfums Apex Eau Intense</value>
+      <webElementGuid>57bfbbfd-feba-4aa9-92a6-83a99438669f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wc-block-components-quantity-selector__button wc-block-components-quantity-selector__button--minus</value>
+      <webElementGuid>340aba44-c21a-4b56-bc3e-dabb6cc8d299</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>－</value>
+      <webElementGuid>1fa59256-ebf8-4252-ba48-7561cb2318a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page-template-default page page-id-11 wp-custom-logo desktop-detect theme-monatheme woocommerce-cart woocommerce-page woocommerce-js woo-variation-swatches wvs-behavior-blur wvs-theme-monatheme wvs-show-label wvs-tooltip windows&quot;]/main[@class=&quot;main spc-hd&quot;]/section[@class=&quot;main-default-page&quot;]/div[@class=&quot;container mona-content&quot;]/div[@class=&quot;wp-block-woocommerce-cart alignwide&quot;]/div[4]/div[1]/div[@class=&quot;wc-block-components-sidebar-layout wc-block-cart wp-block-woocommerce-filled-cart-block is-large&quot;]/div[@class=&quot;wc-block-components-main wc-block-cart__main wp-block-woocommerce-cart-items-block&quot;]/table[@class=&quot;wc-block-cart-items wp-block-woocommerce-cart-line-items-block&quot;]/tbody[1]/tr[@class=&quot;wc-block-cart-items__row&quot;]/td[@class=&quot;wc-block-cart-item__product&quot;]/div[@class=&quot;wc-block-cart-item__wrap&quot;]/div[@class=&quot;wc-block-cart-item__quantity&quot;]/div[@class=&quot;wc-block-components-quantity-selector&quot;]/button[@class=&quot;wc-block-components-quantity-selector__button wc-block-components-quantity-selector__button--minus&quot;]</value>
+      <webElementGuid>7ee9889b-6a58-4134-bd76-0c3f264d757b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dung tích:'])[1]/following::button[1]</value>
+      <webElementGuid>55a75fe1-b6e4-42e4-b4f5-89f124e31682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roja Parfums Apex Eau Intense'])[1]/following::button[1]</value>
+      <webElementGuid>b2e88f1e-fa2c-4cb3-8992-892ca8a0a9b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='＋'])[1]/preceding::button[1]</value>
+      <webElementGuid>7ee9cf48-45e0-4619-b7c7-a83609584527</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xóa sản phẩm'])[1]/preceding::button[2]</value>
+      <webElementGuid>993014f7-3a59-464f-aff9-c918746d8605</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='－']/parent::*</value>
+      <webElementGuid>ec8cd942-8f45-404d-9115-8794c5718e97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button</value>
+      <webElementGuid>1ecb30cd-8b2a-47ea-9713-b237fc64fdce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '－' or . = '－')]</value>
+      <webElementGuid>0e0e42ce-9a80-4fe7-a3c2-fe7d1884564d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

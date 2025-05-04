@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+    <description></description>
+    <name>DataLogin</name>
+    <tag></tag>
+    <connectionProperties/>
+    <containsHeaders>true</containsHeaders>
+    <csvSeperator></csvSeperator>
+    <dataFileGUID>eee3b33e-f5d1-40bd-87bd-4c777ebcbe22</dataFileGUID>
+    <dataSourceUrl>TestData/Login1.xlsx</dataSourceUrl>
+    <driver>ExcelFile</driver>
+    <isInternalPath>true</isInternalPath>
+    <query></query>
+    <secureUserAccount>false</secureUserAccount>
+    <sheetName>Login</sheetName>
+    <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

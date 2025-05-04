@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_em ang lm test, mong anh ch thng c_8d582e</name>
+   <tag></tag>
+   <elementGuidId>4c2140f6-0b47-46e4-ad77-b937c253b280</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.wc-block-components-textarea</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='order-notes']/div/div/div/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>11407885-5052-4145-903c-90bc3244b26d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wc-block-components-textarea</value>
+      <webElementGuid>b66408f6-3171-45e3-938c-6675b1832368</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Ghi chú về đơn hàng, ví dụ: thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn.</value>
+      <webElementGuid>2dda817e-f4a6-47d4-b5ce-1f45d9aea3f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>aa1928eb-cd20-41a7-bb5f-68896b7e43d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>em đang làm test, mong anh chị thông cảm không giao hàng cho </value>
+      <webElementGuid>f180b352-51c4-4e9a-9819-db542f8f5f1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;order-notes&quot;)/div[@class=&quot;wc-block-components-checkout-step__container&quot;]/div[@class=&quot;wc-block-components-checkout-step__content&quot;]/div[@class=&quot;wc-block-checkout__add-note&quot;]/textarea[@class=&quot;wc-block-components-textarea&quot;]</value>
+      <webElementGuid>7c5114bd-390c-4c0e-b585-c3dc91f7b778</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='order-notes']/div/div/div/textarea</value>
+      <webElementGuid>e3a23df6-6e4c-43b3-ade1-e5cafa5570c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thêm ghi chú cho đơn hàng của bạn'])[1]/following::textarea[1]</value>
+      <webElementGuid>615df25c-0a8e-431b-8e96-e580bd08e935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trả tiền mặt khi giao hàng'])[1]/following::textarea[1]</value>
+      <webElementGuid>ca4215f5-02cf-4a30-90b4-81aef1349f62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quay lại giỏ hàng'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>45d6bc14-d477-478f-a256-6dfd2eb9c98a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đặt hàng'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>f9b5560b-b464-4cb2-8229-79788d8e3527</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='em đang làm test, mong anh chị thông cảm không giao hàng cho']/parent::*</value>
+      <webElementGuid>6de7f69b-214d-4f18-a49e-ceece967c15c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>ae179b92-d06b-4390-862b-4a226fe14e1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Ghi chú về đơn hàng, ví dụ: thời gian hay chỉ dẫn địa điểm giao hàng chi tiết hơn.' and (text() = 'em đang làm test, mong anh chị thông cảm không giao hàng cho ' or . = 'em đang làm test, mong anh chị thông cảm không giao hàng cho ')]</value>
+      <webElementGuid>15e9cd51-cb97-4714-aaef-b0dbcd1f873a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

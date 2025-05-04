@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Roja Parfums Apex Eau Intense</name>
+   <tag></tag>
+   <elementGuidId>95fbf321-006b-467a-b72f-fbd40e3cdb24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.tt-prod-dt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='product-15039']/div[2]/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>88d2d629-07f3-48af-aeb7-2e5ea7dd2df1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tt-prod-dt</value>
+      <webElementGuid>68bf599a-1f96-4390-9c23-ec0f449728b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Roja Parfums Apex Eau Intense</value>
+      <webElementGuid>9fc79b98-f00b-46cc-8f07-1f1043c1e1f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-15039&quot;)/div[@class=&quot;prod-dt-left-it col-6&quot;]/h1[@class=&quot;tt-prod-dt&quot;]</value>
+      <webElementGuid>046d4742-309a-461e-8717-9c325322d46e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='product-15039']/div[2]/h1</value>
+      <webElementGuid>37bf7bb0-04d4-4c3e-b27e-a05690259476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roja Parfums Apex Eau Intense'])[1]/following::h1[1]</value>
+      <webElementGuid>4af9f092-a669-4940-a5eb-b6c9eb270707</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roja Parfums'])[4]/following::h1[1]</value>
+      <webElementGuid>da6d781c-4b23-4623-8e25-16595c709c53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thêm vào yêu thích'])[1]/preceding::h1[1]</value>
+      <webElementGuid>38fc5dbc-e76d-4dcb-b153-4f4858340991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₫'])[1]/preceding::h1[1]</value>
+      <webElementGuid>115450d3-52db-45b5-9867-3f2ddabbcfb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>dc1759e9-bcb9-4186-8f07-092a78134d07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Roja Parfums Apex Eau Intense' or . = 'Roja Parfums Apex Eau Intense')]</value>
+      <webElementGuid>15619a6f-26a0-4d5d-b3e6-8cb0f85d110d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
