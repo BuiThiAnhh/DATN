@@ -9,28 +9,28 @@ pipeline {
     stages {
         stage('Prepare Workspace') {
             steps {
-                bat '''
-                    echo Checking workspace structure...
-                    dir
+                sh '''
+                    echo "Checking workspace structure..."
+                    ls -al
 
-                    if not exist "Test Suites" (
-                        echo ERROR: Test Suites directory not found!
-                        exit /b 1
-                    )
+                    if [ ! -d "Test Suites" ]; then
+                        echo "ERROR: Test Suites directory not found!"
+                        exit 1
+                    fi
 
-                    if not exist "Reports" (
+                    if [ ! -d "Reports" ]; then
                         mkdir Reports
-                    )
+                    fi
                 '''
             }
         }
 
         stage('Verify Chrome Installation') {
             steps {
-                bat '''
-                    echo Verifying Google Chrome version...
-                    "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" --version
-                    where chrome
+                sh '''
+                    echo "Verifying Google Chrome version..."
+                    google-chrome --version || chromium-browser --version || echo "Chrome not found"
+                    which google-chrome || which chromium-browser
                 '''
             }
         }
@@ -56,10 +56,10 @@ pipeline {
             steps {
                 script {
                     if (fileExists('Reports')) {
-                        bat 'dir Reports /s'
+                        sh 'find Reports -type f'
 
-                        def reportPath = bat(
-                            script: 'for /f "delims=" %%i in (\'dir /s /b Reports\\TSLogin\') do (echo %%i & goto :found) & echo & :found',
+                        def reportPath = sh(
+                            script: "find Reports/TSLogin -type d | head -n 1",
                             returnStdout: true
                         ).trim()
 
