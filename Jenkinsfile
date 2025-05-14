@@ -9,26 +9,28 @@ pipeline {
     stages {
         stage('Prepare Workspace') {
             steps {
-                sh '''
-                    echo "Checking workspace structure..."
-                    ls -la
+                bat '''
+                    echo Checking workspace structure...
+                    dir
 
-                    if [ ! -d "Test Suites" ]; then
-                        echo "ERROR: Test Suites directory not found!"
-                        exit 1
-                    fi
+                    if not exist "Test Suites" (
+                        echo ERROR: Test Suites directory not found!
+                        exit /b 1
+                    )
 
-                    mkdir -p Reports
+                    if not exist "Reports" (
+                        mkdir Reports
+                    )
                 '''
             }
         }
 
         stage('Verify Chrome Installation') {
             steps {
-                sh '''
-                    echo "Verifying Google Chrome version..."
-                    google-chrome-stable --version
-                    which google-chrome-stable
+                bat '''
+                    echo Verifying Google Chrome version...
+                    "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" --version
+                    where chrome
                 '''
             }
         }
@@ -39,7 +41,7 @@ pipeline {
                     try {
                         executeKatalon(
                             version: env.KATALON_VERSION,
-                            executeArgs: "-runMode=console -projectPath=${WORKSPACE} -retry=0 -testSuitePath='Test Suites/TSLogin' -browserType='Chrome (headless)' -executionProfile='default' -reportFolder=${WORKSPACE}/Reports -reportFileName='TestReport' -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
+                            executeArgs: "-runMode=console -projectPath=\"${WORKSPACE}\" -retry=0 -testSuitePath=\"Test Suites/TSLogin\" -browserType=\"Chrome (headless)\" -executionProfile=\"default\" -reportFolder=\"${WORKSPACE}/Reports\" -reportFileName=\"TestReport\" -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
                         )
                     } catch (Exception e) {
                         echo "Test execution failed: ${e.message}"
@@ -54,16 +56,20 @@ pipeline {
             steps {
                 script {
                     if (fileExists('Reports')) {
-                        sh 'ls -la Reports/'
+                        bat 'dir Reports /s'
 
-                        def reportPath = sh(script: 'find Reports -type d -name "TSLogin" | head -n 1', returnStdout: true).trim()
+                        def reportPath = bat(
+                            script: 'for /f "delims=" %%i in (\'dir /s /b Reports\\TSLogin\') do (echo %%i & goto :found) & echo & :found',
+                            returnStdout: true
+                        ).trim()
+
                         if (reportPath) {
                             echo "Found report directory at: ${reportPath}"
                             publishHTML([
                                 allowMissing: true,
                                 alwaysLinkToLastBuild: true,
                                 keepAll: true,
-                                reportDir: reportPath,
+                                reportDir: 'Reports/TSLogin',
                                 reportFiles: '*.html',
                                 reportName: 'Katalon Test Report'
                             ])
