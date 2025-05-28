@@ -7,10 +7,9 @@
    <createdVersion>9.3.1</createdVersion>
    <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>10.2.0</modifiedVersion>
+   <modifiedVersion>9.3.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/DATN/DATN.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\admin\Katalon Studio\DATN\DATN.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
