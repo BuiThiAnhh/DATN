@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>c74d5263-6b75-4b94-b17c-9567122cf231</dataFileGUID>
-   <dataSourceUrl>TestData/Cart.xlsx</dataSourceUrl>
+   <dataSourceUrl>E:/Đồ Án/ĐATN-BÙI THỊ ÁNH/Test data/Cart.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
