@@ -41,7 +41,7 @@ pipeline {
                     try {
                         executeKatalon(
                             version: env.KATALON_VERSION,
-                            executeArgs: "-runMode=console -projectPath=\"${WORKSPACE}\" -retry=0 -testSuitePath=\"Test Suites/TSRegister\" -browserType=\"Chrome (headless)\" -executionProfile=\"default\" -reportFolder=\"${WORKSPACE}/Reports\" -reportFileName=\"TestReport\" -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
+                            executeArgs: "-runMode=console -projectPath=\"${WORKSPACE}\" -retry=0 -testSuitePath=\"Test Suit\TSLogin\" -browserType=\"Chrome (headless)\" -executionProfile=\"default\" -reportFolder=\"${WORKSPACE}/Reports\" -reportFileName=\"TestReport\" -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
                         )
                     } catch (Exception e) {
                         echo "Test execution failed: ${e.message}"
@@ -59,7 +59,7 @@ pipeline {
                         sh 'find Reports -type f'
 
                         def reportPath = sh(
-                            script: "find Reports/TSRegister -type d | head -n 1",
+                            script: "find Reports/TLogin -type d | head -n 1",
                             returnStdout: true
                         ).trim()
 
@@ -69,7 +69,7 @@ pipeline {
                                 allowMissing: true,
                                 alwaysLinkToLastBuild: true,
                                 keepAll: true,
-                                reportDir: 'Reports/TSRegister',
+                                reportDir: 'Reports/TSLogin',
                                 reportFiles: '*.html',
                                 reportName: 'Katalon Test Report'
                             ])
