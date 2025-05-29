@@ -41,7 +41,7 @@ pipeline {
                     try {
                         executeKatalon(
                             version: env.KATALON_VERSION,
-                            executeArgs: "-runMode=console -projectPath=\"${WORKSPACE}\" -retry=0 -testSuitePath=\"Test Suit\TSLogin\" -browserType=\"Chrome (headless)\" -executionProfile=\"default\" -reportFolder=\"${WORKSPACE}/Reports\" -reportFileName=\"TestReport\" -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
+                            executeArgs: "-runMode=console -projectPath=\"${WORKSPACE}\" -retry=0 -testSuitePath=\"Test Suit\ TSLogin\" -browserType=\"Chrome (headless)\" -executionProfile=\"default\" -reportFolder=\"${WORKSPACE}/Reports\" -reportFileName=\"TestReport\" -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
                         )
                     } catch (Exception e) {
                         echo "Test execution failed: ${e.message}"
