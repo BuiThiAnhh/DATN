@@ -1,18 +1,16 @@
 pipeline {
     agent any
 
+    options {
+        cleanWs()
+    }
+
     environment {
         KATALON_VERSION = '10.2.0'
         KATALON_KEY = 'fb4e1d81-f3d3-4190-9474-a37ce9801ad1'
     }
 
     stages {
-        stage('Clean Workspace') {
-            steps {
-                cleanWs()
-            }
-        }
-
         stage('Prepare Workspace') {
             steps {
                 sh '''
