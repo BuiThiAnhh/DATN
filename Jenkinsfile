@@ -11,16 +11,14 @@ pipeline {
             steps {
                 sh '''
                     echo "Checking workspace structure..."
-                    ls -al
+                    ls -la
 
                     if [ ! -d "Test Suites" ]; then
                         echo "ERROR: Test Suites directory not found!"
                         exit 1
                     fi
 
-                    if [ ! -d "Reports" ]; then
-                        mkdir Reports
-                    fi
+                    mkdir -p Reports
                 '''
             }
         }
@@ -29,8 +27,8 @@ pipeline {
             steps {
                 sh '''
                     echo "Verifying Google Chrome version..."
-                    google-chrome --version || chromium-browser --version || echo "Chrome not found"
-                    which google-chrome || which chromium-browser
+                    google-chrome-stable --version
+                    which google-chrome-stable
                 '''
             }
         }
@@ -41,7 +39,7 @@ pipeline {
                     try {
                         executeKatalon(
                             version: env.KATALON_VERSION,
-                            executeArgs: "-runMode=console -projectPath=\"${WORKSPACE}\" -retry=0 -testSuitePath=\"Test Suit\ TSLogin\" -browserType=\"Chrome (headless)\" -executionProfile=\"default\" -reportFolder=\"${WORKSPACE}/Reports\" -reportFileName=\"TestReport\" -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
+                            executeArgs: "-runMode=console -projectPath=${WORKSPACE} -retry=0 -testSuitePath='Test Suites/TSLogin' -browserType='Chrome (headless)' -executionProfile='default' -reportFolder=${WORKSPACE}/Reports -reportFileName='TestReport' -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
                         )
                     } catch (Exception e) {
                         echo "Test execution failed: ${e.message}"
@@ -56,20 +54,16 @@ pipeline {
             steps {
                 script {
                     if (fileExists('Reports')) {
-                        sh 'find Reports -type f'
+                        sh 'ls -la Reports/'
 
-                        def reportPath = sh(
-                            script: "find Reports/TLogin -type d | head -n 1",
-                            returnStdout: true
-                        ).trim()
-
+                        def reportPath = sh(script: 'find Reports -type d -name "TSLogin" | head -n 1', returnStdout: true).trim()
                         if (reportPath) {
                             echo "Found report directory at: ${reportPath}"
                             publishHTML([
                                 allowMissing: true,
                                 alwaysLinkToLastBuild: true,
                                 keepAll: true,
-                                reportDir: 'Reports/TSLogin',
+                                reportDir: reportPath,
                                 reportFiles: '*.html',
                                 reportName: 'Katalon Test Report'
                             ])
