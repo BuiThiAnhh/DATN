@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>eee3b33e-f5d1-40bd-87bd-4c777ebcbe22</dataFileGUID>
-   <dataSourceUrl>Test data\Login1.xlsx</dataSourceUrl>
+   <dataSourceUrl>Test data/Login1.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
