@@ -39,7 +39,7 @@ pipeline {
                     try {
                         executeKatalon(
                             version: env.KATALON_VERSION,
-                            executeArgs: "-runMode=console -projectPath=${WORKSPACE} -retry=0 -testSuitePath='Test Suites/TSLogin' -browserType='Chrome (headless)' -executionProfile='default' -reportFolder=${WORKSPACE}/Reports -reportFileName='TestReport' -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
+                            executeArgs: "-runMode=console -projectPath=${WORKSPACE} -retry=0 -testSuitePath='Test Suites/TSOrder' -browserType='Chrome (headless)' -executionProfile='default' -reportFolder=${WORKSPACE}/Reports -reportFileName='TestReport' -apikey=${env.KATALON_KEY} --config -webui.autoUpdateDrivers=true"
                         )
                     } catch (Exception e) {
                         echo "Test execution failed: ${e.message}"
@@ -56,7 +56,7 @@ pipeline {
                     if (fileExists('Reports')) {
                         sh 'ls -la Reports/'
 
-                        def reportPath = sh(script: 'find Reports -type d -name "TSLogin" | head -n 1', returnStdout: true).trim()
+                        def reportPath = sh(script: 'find Reports -type d -name "TSOrder" | head -n 1', returnStdout: true).trim()
                         if (reportPath) {
                             echo "Found report directory at: ${reportPath}"
                             publishHTML([
@@ -68,7 +68,7 @@ pipeline {
                                 reportName: 'Katalon Test Report'
                             ])
                         } else {
-                            echo "No TSLogin directory found in Reports"
+                            echo "No TSOrder directory found in Reports"
                         }
                     } else {
                         echo "Reports directory does not exist"
