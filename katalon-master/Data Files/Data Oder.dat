@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+    <description></description>
+    <name>Data Oder</name>
+    <tag></tag>
+    <connectionProperties/>
+    <containsHeaders>true</containsHeaders>
+    <csvSeperator></csvSeperator>
+    <dataFileGUID>a87d5f48-33b5-4237-bcc3-cf20f1cccb9f</dataFileGUID>
+    <dataSourceUrl>TestData/Đặt hàng.xlsx</dataSourceUrl>
+    <driver>ExcelFile</driver>
+    <isInternalPath>true</isInternalPath>
+    <query></query>
+    <secureUserAccount>false</secureUserAccount>
+    <sheetName>Sheet1</sheetName>
+    <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

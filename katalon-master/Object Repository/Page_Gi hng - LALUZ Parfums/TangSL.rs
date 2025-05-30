@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TangSL</name>
+   <tag></tag>
+   <elementGuidId>77cada0d-ddb9-4202-9518-f2e404af739a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.wc-block-components-quantity-selector__button.wc-block-components-quantity-selector__button--plus</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='－'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>338d86dc-d7a8-4b86-8bcb-130774bde5ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Increase quantity of Roja Parfums Apex Eau Intense</value>
+      <webElementGuid>c133f443-e6af-46a0-a779-f4d11b697d43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wc-block-components-quantity-selector__button wc-block-components-quantity-selector__button--plus</value>
+      <webElementGuid>0a89ab4e-4f8b-45fd-87f4-0f21a5f91474</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>＋</value>
+      <webElementGuid>b18513b6-6338-43b8-8b8d-eda7484a9ee7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page-template-default page page-id-11 wp-custom-logo desktop-detect theme-monatheme woocommerce-cart woocommerce-page woocommerce-js woo-variation-swatches wvs-behavior-blur wvs-theme-monatheme wvs-show-label wvs-tooltip windows&quot;]/main[@class=&quot;main spc-hd&quot;]/section[@class=&quot;main-default-page&quot;]/div[@class=&quot;container mona-content&quot;]/div[@class=&quot;wp-block-woocommerce-cart alignwide&quot;]/div[4]/div[1]/div[@class=&quot;wc-block-components-sidebar-layout wc-block-cart wp-block-woocommerce-filled-cart-block is-large&quot;]/div[@class=&quot;wc-block-components-main wc-block-cart__main wp-block-woocommerce-cart-items-block&quot;]/table[@class=&quot;wc-block-cart-items wp-block-woocommerce-cart-line-items-block&quot;]/tbody[1]/tr[@class=&quot;wc-block-cart-items__row&quot;]/td[@class=&quot;wc-block-cart-item__product&quot;]/div[@class=&quot;wc-block-cart-item__wrap&quot;]/div[@class=&quot;wc-block-cart-item__quantity&quot;]/div[@class=&quot;wc-block-components-quantity-selector&quot;]/button[@class=&quot;wc-block-components-quantity-selector__button wc-block-components-quantity-selector__button--plus&quot;]</value>
+      <webElementGuid>fda4c6f3-ea32-4da5-a38b-d70f1620665b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='－'])[1]/following::button[1]</value>
+      <webElementGuid>1db04536-b128-4e7d-8bc3-33c247e3767b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dung tích:'])[1]/following::button[2]</value>
+      <webElementGuid>4b04bf53-8d8c-4117-b4de-2d15366de5d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xóa sản phẩm'])[1]/preceding::button[1]</value>
+      <webElementGuid>8b2a0989-c048-4fe9-aa8f-7a78527e215e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GIỎ HÀNG'])[1]/preceding::button[2]</value>
+      <webElementGuid>d64b9610-b96c-4abb-b83c-6cca136a61a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='＋']/parent::*</value>
+      <webElementGuid>7fb09b3a-d3e5-4f78-a9c7-72433ee92239</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>57564875-18c2-445e-b2aa-ebeafb9110a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '＋' or . = '＋')]</value>
+      <webElementGuid>d82ee25e-937b-450d-a493-edd4f844f0d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

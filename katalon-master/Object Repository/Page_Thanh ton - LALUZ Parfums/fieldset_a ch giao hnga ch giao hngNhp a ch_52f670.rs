@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>fieldset_a ch giao hnga ch giao hngNhp a ch_52f670</name>
+   <tag></tag>
+   <elementGuidId>1ca7c412-bf45-45d2-831f-d6297e89f6bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#shipping-fields</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='shipping-fields']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>fieldset</value>
+      <webElementGuid>66a828dd-9bb3-4ead-89f8-f0c2c8b9eb8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wc-block-checkout__shipping-fields wp-block-woocommerce-checkout-shipping-address-block wc-block-components-checkout-step wc-block-components-checkout-step--with-step-number</value>
+      <webElementGuid>b8b88b4b-99ef-4d25-accf-c44471df0c16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>shipping-fields</value>
+      <webElementGuid>359ca846-c05f-4959-9771-cfa52e6f5756</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Địa chỉ giao hàngĐịa chỉ giao hàngNhập địa chỉ nơi bạn muốn đơn hàng của mình được giao.lan nguyễn36 Phùng chí kiên, đống đa, hà nộiViệt NamSửaTênHọCông ty (không bắt buộc)Địa chỉCăn hộ, số nhà... (không bắt buộc)Quốc gia/Khu vựcẢ Rập SaudiAfghanistanAi CậpÅland IslandsAlbaniaAlgeriaAmerican SamoaẤn ĐộAndorraAngolaAnguillaAnh (UK)AntarcticaAntigua và BarbudaÁoArgentinaArmeniaArubaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelauBelizeBeninBermudaBhutanBỉBờ biển NgàBồ Đào NhaBoliviaBonaire, Saint Eustatius và SabaBosnia và HerzegovinaBotswanaBrazilBruneiBulgariaBurkina FasoBurundiCác Tiểu đảo xa của Hoa Kỳ (US)Các tiểu vương quốc Ả RậpCameroonCampuchiaCanadaCape VerdeChadChileChristmas IslandColombiaComorosCộng hòa DominicaCộng hòa SécCộng hòa Trung PhiCongo (Brazzaville)Congo (Kinshasa)Costa RicaCroatiaCubaCuraÇaoCyprusĐài LoanĐan MạchĐảo BouvetĐảo Heard và quần đảo McDonaldĐảo ManĐảo SamoaDjiboutiDominicaĐông TimoĐứcEcuadorEl SalvadorEritreaEstoniaEswatiniEthiopiaFijiGabonGambiaGeorgiaGhanaGibraltarGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea Xích đạoGuinea-BissauGuyanaGuyane thuộc PhápHà LanHaitiHàn QuốcHondurasHồng KôngHungaryHy LạpIcelandIndonesiaIranIraqIrelandIsraelJamaicaJerseyJordanKazakhstanKenyaKiribatiKuwaitKyrgyzstanLãnh thổ Ấn Độ Dương thuộc AnhLãnh thổ miền Nam nước PhápLàoLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMa CaoMadagascarMalawiMalaysiaMaldivesMaliMaltaMartiniqueMauritaniaMauritiusMayotteMexicoMicronesiaMoldovaMonacoMông CổMontenegroMontserratMoroccoMozambiqueMỹ (US)MyanmarNa UyNam Georgia và Quần đảo Nam SandwichNam PhiNam SudanNamibiaNauruNepalNew CaledoniaNew ZealandNgaNhật BảnNicaraguaNigerNigeriaNiueNorfolk IslandNorth MacedoniaOmanPakistanPalestinian TerritoryPanamaPapua New GuineaParaguayPeruPhần LanPhápPhilippinesPitcairnPolynesia thuộc PhápPuerto RicoQatarQuần đảo Bắc MarianaQuần đảo CaymanQuần đảo Cocos (Keeling)Quần đảo CookQuần đảo FalklandQuần đảo FaroeQuần đảo MarshallQuần đảo SolomonReunionRomaniaRwandaSaint BarthélemySaint HelenaSaint Kitts và NevisSaint LuciaSaint Martin (thuộc Hà Lan)Saint Pierre và MiquelonSaint Vincent và GrenadinesSaint-Martin (thuộc Pháp)San MarinoSão Tomé và PríncipeSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSomaliaSri LankaSudanSurinameSvalbard và Jan MayenSyriaTajikistanTanzaniaTây Ban NhaThái LanThổ Nhĩ KỳThụy ĐiểnThụy SĩTogoTokelauTongaTriều TiênTrinidad và TobagoTrung QuốcTunisiaTurkmenistanTurks và quần đảo CaicosTuvaluÚcUgandaUkraineUruguayUzbekistanVanuatuVaticanVenezuelaViệt NamVirgin Islands (British)Virgin Islands (Mỹ)Wallis và FutunaWestern SaharaÝYemenZambiaZimbabweMã bưu điện (không bắt buộc)Thành phốSố điện thoạiUse same address for billing</value>
+      <webElementGuid>1c7975bf-7c23-4294-a5a7-c563f63d42b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shipping-fields&quot;)</value>
+      <webElementGuid>5aae84e7-a7f4-41e6-a279-372227bce996</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//fieldset[@id='shipping-fields']</value>
+      <webElementGuid>ea5593d9-8a9c-4174-aff8-0c09d0994a19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Địa chỉ email'])[1]/following::fieldset[1]</value>
+      <webElementGuid>7a0daa74-f279-4f83-b16a-88d455874ee8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thông tin liên hệ'])[1]/following::fieldset[1]</value>
+      <webElementGuid>c677dfac-0d87-4e50-9daa-d8d6babf00cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset[2]</value>
+      <webElementGuid>10ea5017-e6ea-47ee-98a6-d473436d9824</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//fieldset[@id = 'shipping-fields' and (text() = 'Địa chỉ giao hàngĐịa chỉ giao hàngNhập địa chỉ nơi bạn muốn đơn hàng của mình được giao.lan nguyễn36 Phùng chí kiên, đống đa, hà nộiViệt NamSửaTênHọCông ty (không bắt buộc)Địa chỉCăn hộ, số nhà... (không bắt buộc)Quốc gia/Khu vựcẢ Rập SaudiAfghanistanAi CậpÅland IslandsAlbaniaAlgeriaAmerican SamoaẤn ĐộAndorraAngolaAnguillaAnh (UK)AntarcticaAntigua và BarbudaÁoArgentinaArmeniaArubaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelauBelizeBeninBermudaBhutanBỉBờ biển NgàBồ Đào NhaBoliviaBonaire, Saint Eustatius và SabaBosnia và HerzegovinaBotswanaBrazilBruneiBulgariaBurkina FasoBurundiCác Tiểu đảo xa của Hoa Kỳ (US)Các tiểu vương quốc Ả RậpCameroonCampuchiaCanadaCape VerdeChadChileChristmas IslandColombiaComorosCộng hòa DominicaCộng hòa SécCộng hòa Trung PhiCongo (Brazzaville)Congo (Kinshasa)Costa RicaCroatiaCubaCuraÇaoCyprusĐài LoanĐan MạchĐảo BouvetĐảo Heard và quần đảo McDonaldĐảo ManĐảo SamoaDjiboutiDominicaĐông TimoĐứcEcuadorEl SalvadorEritreaEstoniaEswatiniEthiopiaFijiGabonGambiaGeorgiaGhanaGibraltarGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea Xích đạoGuinea-BissauGuyanaGuyane thuộc PhápHà LanHaitiHàn QuốcHondurasHồng KôngHungaryHy LạpIcelandIndonesiaIranIraqIrelandIsraelJamaicaJerseyJordanKazakhstanKenyaKiribatiKuwaitKyrgyzstanLãnh thổ Ấn Độ Dương thuộc AnhLãnh thổ miền Nam nước PhápLàoLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMa CaoMadagascarMalawiMalaysiaMaldivesMaliMaltaMartiniqueMauritaniaMauritiusMayotteMexicoMicronesiaMoldovaMonacoMông CổMontenegroMontserratMoroccoMozambiqueMỹ (US)MyanmarNa UyNam Georgia và Quần đảo Nam SandwichNam PhiNam SudanNamibiaNauruNepalNew CaledoniaNew ZealandNgaNhật BảnNicaraguaNigerNigeriaNiueNorfolk IslandNorth MacedoniaOmanPakistanPalestinian TerritoryPanamaPapua New GuineaParaguayPeruPhần LanPhápPhilippinesPitcairnPolynesia thuộc PhápPuerto RicoQatarQuần đảo Bắc MarianaQuần đảo CaymanQuần đảo Cocos (Keeling)Quần đảo CookQuần đảo FalklandQuần đảo FaroeQuần đảo MarshallQuần đảo SolomonReunionRomaniaRwandaSaint BarthélemySaint HelenaSaint Kitts và NevisSaint LuciaSaint Martin (thuộc Hà Lan)Saint Pierre và MiquelonSaint Vincent và GrenadinesSaint-Martin (thuộc Pháp)San MarinoSão Tomé và PríncipeSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSomaliaSri LankaSudanSurinameSvalbard và Jan MayenSyriaTajikistanTanzaniaTây Ban NhaThái LanThổ Nhĩ KỳThụy ĐiểnThụy SĩTogoTokelauTongaTriều TiênTrinidad và TobagoTrung QuốcTunisiaTurkmenistanTurks và quần đảo CaicosTuvaluÚcUgandaUkraineUruguayUzbekistanVanuatuVaticanVenezuelaViệt NamVirgin Islands (British)Virgin Islands (Mỹ)Wallis và FutunaWestern SaharaÝYemenZambiaZimbabweMã bưu điện (không bắt buộc)Thành phốSố điện thoạiUse same address for billing' or . = 'Địa chỉ giao hàngĐịa chỉ giao hàngNhập địa chỉ nơi bạn muốn đơn hàng của mình được giao.lan nguyễn36 Phùng chí kiên, đống đa, hà nộiViệt NamSửaTênHọCông ty (không bắt buộc)Địa chỉCăn hộ, số nhà... (không bắt buộc)Quốc gia/Khu vựcẢ Rập SaudiAfghanistanAi CậpÅland IslandsAlbaniaAlgeriaAmerican SamoaẤn ĐộAndorraAngolaAnguillaAnh (UK)AntarcticaAntigua và BarbudaÁoArgentinaArmeniaArubaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelauBelizeBeninBermudaBhutanBỉBờ biển NgàBồ Đào NhaBoliviaBonaire, Saint Eustatius và SabaBosnia và HerzegovinaBotswanaBrazilBruneiBulgariaBurkina FasoBurundiCác Tiểu đảo xa của Hoa Kỳ (US)Các tiểu vương quốc Ả RậpCameroonCampuchiaCanadaCape VerdeChadChileChristmas IslandColombiaComorosCộng hòa DominicaCộng hòa SécCộng hòa Trung PhiCongo (Brazzaville)Congo (Kinshasa)Costa RicaCroatiaCubaCuraÇaoCyprusĐài LoanĐan MạchĐảo BouvetĐảo Heard và quần đảo McDonaldĐảo ManĐảo SamoaDjiboutiDominicaĐông TimoĐứcEcuadorEl SalvadorEritreaEstoniaEswatiniEthiopiaFijiGabonGambiaGeorgiaGhanaGibraltarGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea Xích đạoGuinea-BissauGuyanaGuyane thuộc PhápHà LanHaitiHàn QuốcHondurasHồng KôngHungaryHy LạpIcelandIndonesiaIranIraqIrelandIsraelJamaicaJerseyJordanKazakhstanKenyaKiribatiKuwaitKyrgyzstanLãnh thổ Ấn Độ Dương thuộc AnhLãnh thổ miền Nam nước PhápLàoLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMa CaoMadagascarMalawiMalaysiaMaldivesMaliMaltaMartiniqueMauritaniaMauritiusMayotteMexicoMicronesiaMoldovaMonacoMông CổMontenegroMontserratMoroccoMozambiqueMỹ (US)MyanmarNa UyNam Georgia và Quần đảo Nam SandwichNam PhiNam SudanNamibiaNauruNepalNew CaledoniaNew ZealandNgaNhật BảnNicaraguaNigerNigeriaNiueNorfolk IslandNorth MacedoniaOmanPakistanPalestinian TerritoryPanamaPapua New GuineaParaguayPeruPhần LanPhápPhilippinesPitcairnPolynesia thuộc PhápPuerto RicoQatarQuần đảo Bắc MarianaQuần đảo CaymanQuần đảo Cocos (Keeling)Quần đảo CookQuần đảo FalklandQuần đảo FaroeQuần đảo MarshallQuần đảo SolomonReunionRomaniaRwandaSaint BarthélemySaint HelenaSaint Kitts và NevisSaint LuciaSaint Martin (thuộc Hà Lan)Saint Pierre và MiquelonSaint Vincent và GrenadinesSaint-Martin (thuộc Pháp)San MarinoSão Tomé và PríncipeSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSomaliaSri LankaSudanSurinameSvalbard và Jan MayenSyriaTajikistanTanzaniaTây Ban NhaThái LanThổ Nhĩ KỳThụy ĐiểnThụy SĩTogoTokelauTongaTriều TiênTrinidad và TobagoTrung QuốcTunisiaTurkmenistanTurks và quần đảo CaicosTuvaluÚcUgandaUkraineUruguayUzbekistanVanuatuVaticanVenezuelaViệt NamVirgin Islands (British)Virgin Islands (Mỹ)Wallis và FutunaWestern SaharaÝYemenZambiaZimbabweMã bưu điện (không bắt buộc)Thành phốSố điện thoạiUse same address for billing')]</value>
+      <webElementGuid>aafe7a0e-0eda-47b8-a9d9-66f480e18cc8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

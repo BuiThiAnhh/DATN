@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+    <description></description>
+    <name>Data Regester</name>
+    <tag></tag>
+    <connectionProperties/>
+    <containsHeaders>true</containsHeaders>
+    <csvSeperator></csvSeperator>
+    <dataFileGUID>d334e6d6-e203-4c8a-81e8-6244bd230f15</dataFileGUID>
+    <dataSourceUrl>TestData/DK.xlsx</dataSourceUrl>
+    <driver>ExcelFile</driver>
+    <isInternalPath>true</isInternalPath>
+    <query></query>
+    <secureUserAccount>false</secureUserAccount>
+    <sheetName>Sheet2</sheetName>
+    <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+    <description></description>
+    <name>Data Cart</name>
+    <tag></tag>
+    <connectionProperties/>
+    <containsHeaders>true</containsHeaders>
+    <csvSeperator></csvSeperator>
+    <dataFileGUID>c74d5263-6b75-4b94-b17c-9567122cf231</dataFileGUID>
+    <dataSourceUrl>TestData/GH1.xlsx</dataSourceUrl>
+    <driver>ExcelFile</driver>
+    <isInternalPath>true</isInternalPath>
+    <query></query>
+    <secureUserAccount>false</secureUserAccount>
+    <sheetName>Sheet1</sheetName>
+    <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
